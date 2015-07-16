@@ -1,0 +1,237 @@
+# depslib dependency file v1.0
+1398566276 source:c:\users\acer\desktop\pacman\source code\baseengine.cpp
+	"header.h"
+	<SDL_syswm.h>
+	<math.h>
+	"BaseEngine.h"
+	"DisplayableObject.h"
+	"templates.h"
+	"SDL/SDL_ttf.h"
+
+1393311480 c:\users\acer\desktop\pacman\source code\header.h
+	<stdlib.h>
+	<crtdbg.h>
+	"SDL.h"
+	"SDL_ttf.h"
+	"SDL_image.h"
+	"SDL/SDL.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_image.h"
+
+1397025770 c:\users\acer\desktop\pacman\source code\baseengine.h
+	"FontManager.h"
+	<assert.h>
+
+1395388609 c:\users\acer\desktop\pacman\source code\fontmanager.h
+	"SDL/SDL_TTF.h"
+
+1298433646 c:\users\acer\desktop\pacman\source code\displayableobject.h
+	"BaseEngine.h"
+
+1298515262 c:\users\acer\desktop\pacman\source code\templates.h
+
+1395385627 source:c:\users\acer\desktop\pacman\source code\displayableobject.cpp
+	"header.h"
+	"BaseEngine.h"
+	"DisplayableObject.h"
+
+1331603304 source:c:\users\acer\desktop\pacman\source code\fontmanager.cpp
+	"header.h"
+	"FontManager.h"
+	"templates.h"
+
+1398587677 source:c:\users\acer\desktop\pacman\source code\gamemain.cpp
+	"header.h"
+	"BaseEngine.h"
+	"Ghost.h"
+	"Pacman.h"
+	"GameMain.h"
+	"JPGImage.h"
+	"TileManager.h"
+	"FontManager.h"
+
+1398500556 c:\users\acer\desktop\pacman\source code\ghost.h
+	"displayableobject.h"
+	"MovementPosition.h"
+	"JPGImage.h"
+
+1297213694 c:\users\acer\desktop\pacman\source code\movementposition.h
+	"templates.h"
+
+1398513057 c:\users\acer\desktop\pacman\source code\jpgimage.h
+
+1398512387 c:\users\acer\desktop\pacman\source code\pacman.h
+	"DisplayableObject.h"
+	"MovementPosition.h"
+	"BaseEngine.h"
+	"TileManager.h"
+	"JPGImage.h"
+
+1331544430 c:\users\acer\desktop\pacman\source code\tilemanager.h
+	"BaseEngine.h"
+
+1398500541 c:\users\acer\desktop\pacman\source code\gamemain.h
+	"BaseEngine.h"
+	"TileManager.h"
+	"PacmanTileManager.h"
+	"JPGImage.h"
+
+1398555826 c:\users\acer\desktop\pacman\source code\pacmantilemanager.h
+	"JPGImage.h"
+	"tilemanager.h"
+
+1398566331 source:c:\users\acer\desktop\pacman\source code\ghost.cpp
+	"header.h"
+	"Pacman.h"
+	"Ghost.h"
+	"GameMain.h"
+	"JPGImage.h"
+
+1398513068 source:c:\users\acer\desktop\pacman\source code\jpgimage.cpp
+	"header.h"
+	"SDL/SDL_image.h"
+	"JPGImage.h"
+
+1398587675 source:c:\users\acer\desktop\pacman\source code\mainfunction.cpp
+	"header.h"
+	"templates.h"
+	"GameMain.h"
+
+1398569920 source:c:\users\acer\desktop\pacman\source code\pacman.cpp
+	"header.h"
+	"BaseEngine.h"
+	"Pacman.h"
+	"GameMain.h"
+	<sstream>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1398556683 source:c:\users\acer\desktop\pacman\source code\pacmantilemanager.cpp
+	"header.h"
+	"JPGImage.h"
+	"PacmanTileManager.h"
+
+1394454385 source:c:\users\acer\desktop\pacman\source code\tilemanager.cpp
+	"header.h"
+	"BaseEngine.h"
+	"TileManager.h"
+
+1398739797 source:c:\users\irene gohtami\documents\pacman\source code\baseengine.cpp
+	"header.h"
+	<SDL_syswm.h>
+	<math.h>
+	"BaseEngine.h"
+	"DisplayableObject.h"
+	"templates.h"
+	"SDL/SDL_ttf.h"
+
+1398739798 c:\users\irene gohtami\documents\pacman\source code\header.h
+	<stdlib.h>
+	<crtdbg.h>
+	"SDL.h"
+	"SDL_ttf.h"
+	"SDL_image.h"
+	"SDL/SDL.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_image.h"
+
+1398739797 c:\users\irene gohtami\documents\pacman\source code\baseengine.h
+	"FontManager.h"
+	<assert.h>
+
+1398739797 c:\users\irene gohtami\documents\pacman\source code\fontmanager.h
+	"SDL/SDL_TTF.h"
+
+1398739797 c:\users\irene gohtami\documents\pacman\source code\displayableobject.h
+	"BaseEngine.h"
+
+1398739798 c:\users\irene gohtami\documents\pacman\source code\templates.h
+
+1398739797 source:c:\users\irene gohtami\documents\pacman\source code\displayableobject.cpp
+	"header.h"
+	"BaseEngine.h"
+	"DisplayableObject.h"
+
+1398739797 source:c:\users\irene gohtami\documents\pacman\source code\fontmanager.cpp
+	"header.h"
+	"FontManager.h"
+	"templates.h"
+
+1398739797 source:c:\users\irene gohtami\documents\pacman\source code\gamemain.cpp
+	"header.h"
+	"BaseEngine.h"
+	"Ghost.h"
+	"Pacman.h"
+	"GameMain.h"
+	"JPGImage.h"
+	"TileManager.h"
+	"FontManager.h"
+
+1398739798 c:\users\irene gohtami\documents\pacman\source code\ghost.h
+	"displayableobject.h"
+	"MovementPosition.h"
+	"JPGImage.h"
+
+1398739798 c:\users\irene gohtami\documents\pacman\source code\movementposition.h
+	"templates.h"
+
+1398739798 c:\users\irene gohtami\documents\pacman\source code\jpgimage.h
+
+1398739798 c:\users\irene gohtami\documents\pacman\source code\pacman.h
+	"DisplayableObject.h"
+	"MovementPosition.h"
+	"BaseEngine.h"
+	"TileManager.h"
+	"JPGImage.h"
+
+1398739799 c:\users\irene gohtami\documents\pacman\source code\tilemanager.h
+	"BaseEngine.h"
+
+1398739797 c:\users\irene gohtami\documents\pacman\source code\gamemain.h
+	"BaseEngine.h"
+	"TileManager.h"
+	"PacmanTileManager.h"
+	"JPGImage.h"
+
+1398739798 c:\users\irene gohtami\documents\pacman\source code\pacmantilemanager.h
+	"JPGImage.h"
+	"tilemanager.h"
+
+1398739797 source:c:\users\irene gohtami\documents\pacman\source code\ghost.cpp
+	"header.h"
+	"Pacman.h"
+	"Ghost.h"
+	"GameMain.h"
+	"JPGImage.h"
+
+1398739798 source:c:\users\irene gohtami\documents\pacman\source code\jpgimage.cpp
+	"header.h"
+	"SDL/SDL_image.h"
+	"JPGImage.h"
+
+1398739798 source:c:\users\irene gohtami\documents\pacman\source code\mainfunction.cpp
+	"header.h"
+	"templates.h"
+	"GameMain.h"
+
+1398739798 source:c:\users\irene gohtami\documents\pacman\source code\pacman.cpp
+	"header.h"
+	"BaseEngine.h"
+	"Pacman.h"
+	"GameMain.h"
+	<sstream>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1398739798 source:c:\users\irene gohtami\documents\pacman\source code\pacmantilemanager.cpp
+	"header.h"
+	"JPGImage.h"
+	"PacmanTileManager.h"
+
+1398739799 source:c:\users\irene gohtami\documents\pacman\source code\tilemanager.cpp
+	"header.h"
+	"BaseEngine.h"
+	"TileManager.h"
+
