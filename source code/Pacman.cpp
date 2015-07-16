@@ -62,7 +62,7 @@ void Pacman::Draw()
     {
         if(m_iDir==0) //up
         {
-            image2.LoadImage("pacopen3u.png");
+            image2.LoadImage("images/pacopen3u.png");
             image1.ShrinkFrom( &image2, 2 );
             image1.RenderImageWithMask( m_pMainEngine->GetForeground(),0, 0,
                         m_iCurrentScreenX-15, m_iCurrentScreenY-15,
@@ -70,7 +70,7 @@ void Pacman::Draw()
         }
         if(m_iDir==1) //right
         {
-            image2.LoadImage("pacopen3.png");
+            image2.LoadImage("images/pacopen3.png");
             image1.ShrinkFrom( &image2, 2 );
             image1.RenderImageWithMask( m_pMainEngine->GetForeground(),0, 0,
                         m_iCurrentScreenX-15, m_iCurrentScreenY-15,
@@ -78,7 +78,7 @@ void Pacman::Draw()
         }
         if(m_iDir==2) //down
         {
-            image2.LoadImage("pacopen3d.png");
+            image2.LoadImage("images/pacopen3d.png");
             image1.ShrinkFrom( &image2, 2 );
             image1.RenderImageWithMask( m_pMainEngine->GetForeground(),0, 0,
                         m_iCurrentScreenX-15, m_iCurrentScreenY-15,
@@ -86,7 +86,7 @@ void Pacman::Draw()
         }
         if(m_iDir==3) //left
         {
-            image2.LoadImage("pacopen3l.png");
+            image2.LoadImage("images/pacopen3l.png");
             image1.ShrinkFrom( &image2, 2 );
             image1.RenderImageWithMask( m_pMainEngine->GetForeground(),0, 0,
                         m_iCurrentScreenX-15, m_iCurrentScreenY-15,
@@ -97,7 +97,7 @@ void Pacman::Draw()
     {
         if(m_iDir==0) //up
         {
-            image2.LoadImage("pacopen1u.png");
+            image2.LoadImage("images/pacopen1u.png");
             image1.ShrinkFrom( &image2, 2 );
             image1.RenderImageWithMask( m_pMainEngine->GetForeground(),0, 0,
                         m_iCurrentScreenX-15, m_iCurrentScreenY-15,
@@ -105,7 +105,7 @@ void Pacman::Draw()
         }
         if(m_iDir==1) //right
         {
-            image2.LoadImage("pacopen1.png");
+            image2.LoadImage("images/pacopen1.png");
             image1.ShrinkFrom( &image2, 2 );
             image1.RenderImageWithMask( m_pMainEngine->GetForeground(),0, 0,
                         m_iCurrentScreenX-15, m_iCurrentScreenY-15,
@@ -113,7 +113,7 @@ void Pacman::Draw()
         }
         if(m_iDir==2) //down
         {
-            image2.LoadImage("pacopen1d.png");
+            image2.LoadImage("images/pacopen1d.png");
             image1.ShrinkFrom( &image2, 2 );
             image1.RenderImageWithMask( m_pMainEngine->GetForeground(),0, 0,
                         m_iCurrentScreenX-15, m_iCurrentScreenY-15,
@@ -121,7 +121,7 @@ void Pacman::Draw()
         }
         if(m_iDir==3) //left
         {
-            image2.LoadImage("pacopen1l.png");
+            image2.LoadImage("images/pacopen1l.png");
             image1.ShrinkFrom( &image2, 2 );
             image1.RenderImageWithMask( m_pMainEngine->GetForeground(),0, 0,
                         m_iCurrentScreenX-15, m_iCurrentScreenY-15,

@@ -26,7 +26,7 @@ Ghost::Ghost(GameMain* pEngine, int iMapX, int iMapY)
 
 	// And make it visible
 	SetVisible(true);
-	img2.LoadImage("ghostdownblue1.png");
+	img2.LoadImage("images/ghostdownblue1.png");
 	img.ShrinkFrom( &img2, 2 );
 }
 

@@ -29,7 +29,7 @@ void GameMain::SetupBackgroundBuffer()
 	case stateInit: // Reload the level data
 	FillBackground( 0 );
 
-    imgg2.LoadImage("logo.png");
+    imgg2.LoadImage("images/logo.png");
 	imgg.ShrinkFrom( &imgg2, 1 ); //2, 300,120
 	imgg.RenderImageWithMask( this->GetBackground(),0, 0,
 					160, 30,
@@ -148,7 +148,7 @@ break;
     case gameOver:
         FillBackground( 0 );
 
-        imgg2.LoadImage("gameover.png");
+        imgg2.LoadImage("images/gameover.png");
         imgg.ShrinkFrom( &imgg2, 1 );
         imgg.RenderImageWithMask( this->GetBackground(),0, 0,
 					210, 200,
@@ -159,7 +159,7 @@ break;
     case win:
         FillBackground( 0 );
 
-        imgg2.LoadImage("win.png");
+        imgg2.LoadImage("images/win.png");
         imgg.ShrinkFrom( &imgg2, 2 );
         imgg.RenderImageWithMask( this->GetBackground(),0, 0,
 					200, 300,
@@ -199,7 +199,7 @@ int GameMain::InitialiseObjects()
 /* Draw text labels */
 void GameMain::DrawStrings()
 {
-    font = m_oFontManager.GetFont("jigsawtr.ttf",48);
+    font = m_oFontManager.GetFont("font/jigsawtr.ttf",48);
 
     switch( m_state )
 	{
